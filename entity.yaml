@@ -8,3 +8,11 @@ spec:
   owner: guests
 
 ---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ecommerce
+spec:
+  type: team
+  children: []
