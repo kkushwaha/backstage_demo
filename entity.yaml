@@ -44,7 +44,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: petstore@example.com
+  owner: guests
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
   
