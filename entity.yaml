@@ -14,6 +14,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: ecommerce
+  title: 'Ecommerce'
 spec:
   type: team
   children: []
@@ -23,6 +24,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: auth-service
+  # The title will override the name above. In case title is missing 
+  # The component name is auth-service in Web Interface
+  title: 'Authentication Service'
   description: authentication service
   tags:
     - javascript
@@ -41,6 +45,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: petstore
+  title: 'Pet Store'
   description: The Petstore API
 spec:
   type: openapi
