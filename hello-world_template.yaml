@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1beta2
 kind: Template
 
 metadata:
-  name: test-template
+  name: test_template
   title: Test Template
   description: test
 
